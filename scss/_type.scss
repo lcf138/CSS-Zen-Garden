@@ -1,27 +1,72 @@
+.page-wrapper {
+	background: $background;
+	padding: 0 150px 0 100px;
+	margin: 0;
+	position: relative;
+	}
+
 body {
   font-size: 16px;
-  font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'PT serif', sans-serif;
   color: $text;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-
+  color:$main;
+  text-align: center;
+  font: 'PT serif',serif;
+  font-size:5em ;
+  margin-bottom: -45px;
 }
 
-h2 {
 
+h2{
+  font-family: 'PT sans',sans-serif;
+  font-size:2.75em;
+  color:$secondary;
+  text-align: center;
 }
 
+h3{
+  font-family: 'PT sans',sans-serif;
+  font-size:1.75em;
+  font-style: oblique;
+  color:$secondary;
+  text-align: left;
+  margin-bottom: -10px;
+  text-decoration: overline;
+}
+.summary {
+  font-family: 'PT sans',sans-serif;
+  font-size:1.25em;
+  color:$main;
+  text-align:left;
+}
 p {
   color: $text;
+}
+.design-selection {
+  color:$gray;
+}
+
+.design-archives {
+color:$gray;
+}
+
+.zen-resources {
+color:$gray;
+}
+
+li {
+text-align:left;
 }
 
 a {
   color: $clickable;
   transition: color $hover-timing ease;
   &:hover {
-    color: darken($clickable, 6%);
+    color: darken($clickable, 20%);
   }
 }
